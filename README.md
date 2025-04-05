@@ -8,8 +8,8 @@ This guide explains how to run a Laravel backend and a Next.js frontend simultan
 
 ```bash
 /Applications/XAMPP/xamppfiles/htdocs/
-├── ihelpcare_backend          # Laravel backend
-└── ihelpcare_frontend # Next.js frontend
+├── ihelpcare_backend      # Laravel backend
+└── ihelpcare_frontend    # Next.js frontend
 ```
 
 ---
@@ -51,38 +51,26 @@ Add:
 127.0.0.1 api.ihelp.test
 ```
 
-### 4. Laravel Environment Setup
-```env
-APP_URL=http://api.ihelp.test
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=your_db_name
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 5. Install Laravel Dependencies
+### 4. Install Laravel Dependencies
 ```bash
 cd /Applications/XAMPP/xamppfiles/htdocs/ihelpcare_backend
 composer install
-cp .env.example .env
 php artisan key:generate
 ```
 
-### 6. Fix Permissions
+### 5. Fix Permissions
 ```bash
 sudo chmod -R 775 storage bootstrap/cache
 sudo chown -R $(whoami):staff storage bootstrap/cache
 ```
 
-### 7. Clear Cache
+### 6. Clear Cache
 ```bash
 php artisan config:clear
 php artisan cache:clear
 ```
 
-### 8. Start Apache from XAMPP UI
+### 7. Start Apache from XAMPP UI
 - Open XAMPP Control Panel
 - Start **Apache** and **MySQL**
 - Visit: http://api.ihelp.test
@@ -91,54 +79,18 @@ php artisan cache:clear
 
 ## 🌐 Next.js Frontend Setup
 
-### 1. Project Directory
-Place frontend in:
+### 1. Install Dependencies
 ```bash
-~/Documents/ihelpcare_Website_frontend
-```
-
-### 2. Configure .env.local
-```env
-APP_NAME="iHelp"
-API_BASE_URL="http://api.ihelp.test"
-API_SUFFIX_URL="/api/v1"
-```
-
-### 3. Install Dependencies
-```bash
-cd ~/Documents/ihelpcare_Website_frontend
 npm install
 ```
 
-### 4. Start Development Server
+### 2. Start Development Server
 ```bash
 npm run dev -p 3041
 ```
 Frontend runs at:
 ```
 http://localhost:3041
-```
-
----
-
-## 🔐 Laravel CORS Configuration
-Edit `config/cors.php`:
-```php
-return [
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
-    'allowed_methods' => ['*'],
-    'allowed_origins' => ['http://localhost:3041'],
-    'allowed_origins_patterns' => [],
-    'allowed_headers' => ['*'],
-    'exposed_headers' => [],
-    'max_age' => 0,
-    'supports_credentials' => true,
-];
-```
-Then clear config:
-```bash
-php artisan config:clear
-php artisan cache:clear
 ```
 
 ---
