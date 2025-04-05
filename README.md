@@ -9,7 +9,7 @@ This guide explains how to run a Laravel backend and a Next.js frontend simultan
 ```bash
 /Applications/XAMPP/xamppfiles/htdocs/
 ├── ihelpcare_backend          # Laravel backend
-└── ihelpcare_Website_frontend # Next.js frontend
+└── ihelpcare_frontend # Next.js frontend
 ```
 
 ---
