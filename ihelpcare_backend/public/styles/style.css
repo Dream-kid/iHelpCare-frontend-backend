@@ -1,0 +1,32 @@
+.icon-color-red {
+    color: red !important;
+}
+
+.dashboard-blocks {
+    background-color: #DDDDDF;
+    padding: 15px;
+    border-radius: 15px;
+    /*color: black;*/
+    margin: 0px 10px 0px 10px;
+}
+
+.dashboard-blocks-url {
+    color: black;
+    font-size: 16px;
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.dashboard-blocks-url:hover {
+    color: black;
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}

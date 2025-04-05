@@ -1,0 +1,48 @@
+nav {
+  background: $blue;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
+
+  &.navbar {
+    .navbar-brand {
+      color: $yellow;
+      font-family: $font;
+      font-size: 36px;
+      font-style: italic;
+      font-weight: 700;
+    }
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $yellow;
+          font-family: $font;
+          border: 1px solid $black;
+          border-radius: 0;
+          font-size: 14px;
+          font-weight: 600;
+          padding: .25rem 1rem;
+          margin-left: 1rem;
+
+          &:hover, &:active, &.active, &:focus {
+            color: $yellow;
+            border: 1px solid $white;
+          }
+
+          &.btn {
+            border: 1px solid $yellow;
+            color: $yellow;
+            padding: .25rem 1.5rem;
+            border-radius: 5px;
+
+            &:hover, &:active, &.active, &:focus {
+              background: $yellow;
+              color: $blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}

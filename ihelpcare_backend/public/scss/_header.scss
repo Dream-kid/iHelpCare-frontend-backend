@@ -1,0 +1,26 @@
+.header {
+  background-image: url("http://ihelp.test/assets/images/hands.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .hero-text {
+    text-shadow: 0 4px 4px rgba(0, 50, 160, 0.75);
+    font-weight: 700;
+    font-size: 58px;
+    color: $yellow;
+    @media only screen and (max-width: $large-device) {
+      font-size: 56px;
+    }
+    @media only screen and (max-width: $extra-small) {
+      font-size: 31px;
+    }
+
+    &.hero-text-2 {
+      font-size: 26px;
+      @media only screen and (max-width: $extra-small) {
+        font-size: 18px;
+      }
+    }
+  }
+}
