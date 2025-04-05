@@ -1,3 +1,19 @@
+# 🛠️ Prerequisites & Setup Environment
+
+Make sure the following software versions are installed on your macOS system:
+
+- **XAMPP**: [Download XAMPP for macOS](https://www.apachefriends.org/index.html)
+  - Tested with: `XAMPP 8.2.x` (includes Apache, PHP 8.2, MySQL)
+- **PHP**: 8.2 or later (comes bundled with XAMPP)
+- **Composer**: [Get Composer](https://getcomposer.org/)
+- **Laravel Framework**: 10.48.11
+- **Node.js**: 18.x or later
+- **npm**: 9.x or later
+- **Next.js**: 14.2.3
+- **Git**: (optional but recommended)
+
+---
+
 # Running Laravel (Backend) and Next.js (Frontend) Together on macOS with XAMPP
 
 This guide explains how to run a Laravel backend and a Next.js frontend simultaneously on macOS using XAMPP, with domain routing and CORS support.
