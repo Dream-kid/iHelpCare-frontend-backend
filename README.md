@@ -81,6 +81,7 @@ php artisan cache:clear
 
 ### 1. Install Dependencies
 ```bash
+/Applications/XAMPP/xamppfiles/htdocs/ihelpcare_frontend
 npm install
 ```
 
@@ -118,3 +119,21 @@ npm run dev -p 3041
 
 ## ✅ Done
 You now have a working Laravel + Next.js fullstack setup on macOS using XAMPP, domain routing, and CORS support for development.
+
+---
+
+## 🗃️ Import MySQL Database
+
+### 1. Open phpMyAdmin from XAMPP UI
+- Start MySQL from the XAMPP Control Panel.
+- Open http://localhost/phpmyadmin in your browser.
+
+### 2. Create Database
+- Click **New**, and create a database named: `ihelpcare_db`
+
+### 3. Import SQL File
+- Click on the `ihelpcare_db` database.
+- Go to the **Import** tab.
+- Choose the file: `ihelp.sql`
+- Click **Go** to import the structure and data.
+
