@@ -1,0 +1,130 @@
+{
+  "support_helpline": {
+    "en": "Support & Helpline",
+    "ph": "Suporta & Helpline"
+  },
+  "sign_up": {
+    "en": "Sign Up",
+    "ph": "Mag-sign Up"
+  },
+  "sign_in": {
+    "en": "Sign In",
+    "ph": "Mag-sign In"
+  },
+  "first_name": {
+    "en": "First Name",
+    "ph": "Pangalan"
+  },
+  "last_name": {
+    "en": "Last Name",
+    "ph": "Apelyido"
+  },
+  "user_type": {
+    "en": "User Type",
+    "ph": "Pangalan ng User"
+  },
+  "caregiver": {
+    "en": "Caregiver",
+    "ph": "Caregiver"
+  },
+  "patient": {
+    "en": "Patient",
+    "ph": "Patient"
+  },
+  "email": {
+    "en": "Email Address",
+    "ph": "Email Address"
+  },
+  "password": {
+    "en": "Password",
+    "ph": "Password"
+  },
+  "confirm_password": {
+    "en": "Confirm Password",
+    "ph": "Kumpirmahin ang Password"
+  },
+  "remember_me": {
+    "en": "Remember Me?",
+    "ph": "Tandaan mo ako?"
+  },
+  "forgot_password": {
+    "en": "Forgot Password",
+    "ph": "Nakalimutan ang password"
+  },
+  "ihelp_description": {
+    "en": "Developing faith communities that are inclusive and helpful for individuals impacted by Alzheimer's.",
+    "ph": "Pagbuo ng mga komunidad ng pananampalataya na kasama at nakakatulong para sa mga indibidwal na naapektuhan ng Alzheimer's."
+  },
+  "read_more": {
+    "en": "Read More",
+    "ph": "Magbasa pa"
+  },
+  "facilities_services": {
+    "en": "Our Facilities and Services",
+    "ph": "Ang Aming Mga Pasilidad at Serbisyo"
+  },
+  "follow_us": {
+    "en": "Follow us",
+    "ph": "Sundan mo kami"
+  },
+  "get_the_newsletter": {
+    "en": "Get the Newsletter",
+    "ph": "Kunin ang Newsletter"
+  },
+  "your_email_address": {
+    "en": "Your email address",
+    "ph": "Ang iyong email address"
+  },
+  "subscribe": {
+    "en": "Subscribe",
+    "ph": "Mag-subscribe"
+  },
+  "features": {
+    "en": "Features",
+    "ph": "Mga tampok"
+  },
+  "survey": {
+    "en": "Survey",
+    "ph": "Survey"
+  },
+  "about": {
+    "en": "About",
+    "ph": "Tungkol sa atin"
+  },
+  "testimonials": {
+    "en": "Testimonials",
+    "ph": "Mga testimonial"
+  },
+  "contact": {
+    "en": "Contact",
+    "ph": "Makipag-ugnayan sa amin"
+  },
+  "download": {
+    "en": "Download",
+    "ph": "I-download"
+  },
+  "ihelp_address": {
+    "en": "1717 Harrison St, San Francisco, CA 94103, USA © 2022 Your Company. All rights reserved.",
+    "ph": "1100 South Marietta Pkwy SE, Marietta, GA 30060, USA © 2024 IHELP. Lahat ng karapatan ay nakalaan."
+  },
+  "my_profile": {
+    "en": "My Profile",
+    "ph": "Aking Profile"
+  },
+  "my_dashboard": {
+    "en": "My Dashboard",
+    "ph": "Aking Dashboard"
+  },
+  "sign_out": {
+    "en": "Sign Out",
+    "ph": "Mag-sign Out"
+  },
+  "field_is_required": {
+    "en": "Field is required",
+    "ph": "Kinakailangan ang field"
+  },
+  "close": {
+    "en": "Close",
+    "ph": "Isara"
+  }
+}

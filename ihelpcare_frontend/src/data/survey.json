@@ -1,0 +1,87 @@
+[
+  {
+    "type": "binary",
+    "title": "Are you a caregiver for someone with Alzheimer's or dementia?",
+    "tag": "is-caregiver",
+    "option": ["Yes", "No"]
+  },
+  {
+    "type": "mcq",
+    "multiSelect": false,
+    "title": "How long have you been a caregiver for someone with Alzheimer's or dementia?",
+    "tag": "caregiver-duration",
+    "option": ["Less than 6 months", "6-12 months", "1-2 years", "More than 2 years"]
+  },
+  {
+    "type": "binary",
+    "title": "Have you used the iHELP platform before?",
+    "tag": "used-ihelp",
+    "option": ["Yes", "No"]
+  },
+  {
+    "type": "mcq",
+    "multiSelect": false,
+    "title": "How would you rate the ease of use of the iHELP website?",
+    "tag": "ease-of-use",
+    "option": ["Very Easy", "Easy", "Moderate", "Difficult", "Very Difficult"]
+  },
+  {
+    "type": "mcq",
+    "multiSelect": false,
+    "title": "Which section of the iHELP website did you find most useful?",
+    "tag": "most-useful-section",
+    "option": [
+      "Education modules",
+      "Videos",
+      "Resources",
+      "Blog posts",
+      "Support group information",
+      "Workshop and seminar announcements"
+    ]
+  },
+  {
+    "type": "input",
+    "title": "Please describe any challenges you faced while using the iHELP website/app.",
+    "tag": "challenges-faced"
+  },
+  {
+    "type": "mcq",
+    "multiSelect": true,
+    "title": "Which features would you like to see improved or added to the iHELP website?",
+    "tag": "desired-improvements",
+    "option": [
+      "User interface design",
+      "More educational content",
+      "Interactive elements",
+      "Community forums",
+      "Support group matching",
+      "Mobile app availability",
+      "Other"
+    ]
+  },
+  {
+    "type": "scale",
+    "title": "On a scale of 1-5, how likely are you to recommend the iHELP website to other caregivers?",
+    "tag": "likelihood-to-recommend",
+    "scale": [1, 2, 3, 4, 5],
+    "scale_labels": ["Very Unlikely", "Unlikely", "Neutral", "Likely", "Very Likely"]
+  },
+  {
+    "type": "mcq",
+    "multiSelect": false,
+    "title": "Have you noticed any improvement in your caregiving approach since using the iHELP platform?",
+    "tag": "improvement-in-caregiving",
+    "option": [
+      "Significant improvement",
+      "Moderate improvement",
+      "Slight improvement",
+      "No improvement",
+      "Not applicable/I haven't used the platform"
+    ]
+  },
+  {
+    "type": "essay",
+    "title": "Please share any success stories or positive experiences you've had as a result of using the iHELP website.",
+    "tag": "success-stories"
+  }
+]

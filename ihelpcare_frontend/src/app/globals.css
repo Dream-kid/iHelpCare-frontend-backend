@@ -1,0 +1,184 @@
+/* == == == == ==> tailwind css <== == == == == */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* == == == == ==> css varaibles <== == == == == */
+:root {
+  --color-primary: #603f8b;
+  --color-primary-hover: #684d8b;
+  --color-primary-active: #2d1258;
+  --color-secondary: #fed141;
+  --color-success: #22c55e;
+  --color-error: #ee2b2b;
+  --color-warning: #f59e0b;
+  --color-link: #2563eb;
+  --color-link-hover: #3b82f6;
+  --color-link-active: #1d4ed8;
+  --color-bg-light: #f8f7f6;
+  --color-bg-dark: #1e1e1e;
+  --color-txt-light: #fafafa;
+  --color-txt-dark: #1e1e1e;
+  --color-gray: hsla(0, 0%, 0%, 0.28);
+  --border-radius: 1px;
+  --default-transition: all 0.3s ease-in-out;
+}
+
+/* == == == == ==> scrollbar styles <== == == == == */
+@-moz-document url-prefix() {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-primary) var(--color-gray);
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px var(--color-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gray);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* == == == == ==> root css <== == == == == */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+input,
+select,
+button,
+textarea,
+a {
+  border-radius: var(--border-radius) !important;
+}
+
+/* == == == == ==> ant design <== == == == == */
+.ant-btn-primary {
+  box-shadow: none !important;
+}
+
+.ant-input-affix-wrapper {
+  box-shadow: none !important;
+}
+
+.ant-input-number {
+  box-shadow: none !important;
+}
+
+.ant-input-group-addon {
+  @apply !bg-[#1D1D1D] hover:!bg-[#3D3D3D];
+}
+
+.ant-modal-confirm-btns .ant-btn-primary {
+  @apply !bg-color-success;
+}
+
+.ant-table-cell {
+  border-radius: 0px !important ;
+  border-bottom: 1px solid var(--color-gray) !important;
+  border-inline-end: 1px solid var(--color-gray) !important;
+}
+
+.ant-table-content table {
+  border-top: 1px solid var(--color-gray) !important;
+  border-left: 1px solid var(--color-gray) !important;
+}
+
+.ant-descriptions-header {
+  margin-bottom: 5px !important;
+}
+
+/* == == == == ==> components styles <== == == == == */
+@layer components {
+  .container {
+    @apply px-2 lg:px-0;
+  }
+
+  /* base components style start */
+  .btn-primary {
+    @apply font-font-medium;
+    transition: var(--default-transition);
+    border-radius: var(--border-radius);
+  }
+  .btn-primary-light {
+    @apply btn-primary bg-color-bg-light text-color-txt-dark hover:!bg-gray-100 hover:!text-color-txt-dark active:!bg-gray-300;
+  }
+  .btn-primary-dark {
+    @apply btn-primary bg-color-bg-dark hover:!bg-zinc-700 active:!bg-zinc-900;
+  }
+
+  .under-dev-heading {
+    @apply my-5 animate-bounce text-center font-font-montserrat text-h4-font-size font-font-semi-bold uppercase lg:text-h2-font-size;
+  }
+  /* base components style end */
+
+  /* navbar style start */
+  .mobile-menu-ul {
+    @apply h-auto list-none rounded-rounded-default border-[1px] border-solid border-[#E0E0E0] bg-color-bg-light py-2 font-font-bold leading-10 shadow-md lg:hidden;
+  }
+
+  .btn-menu-toggle-icon {
+    @apply mt-1 text-color-primary hover:text-color-primary-hover;
+  }
+
+  .mobile-menu {
+    left: -200%;
+    transition: 0.5s;
+  }
+  .mobile-menu.active {
+    left: 0;
+  }
+  .mobile-menu ul li ul {
+    display: none;
+  }
+  .mobile-menu ul li:hover ul {
+    display: block;
+  }
+
+  .nav-link {
+    @apply relative !text-[14px] font-font-bold uppercase !leading-loose !tracking-widest text-color-primary transition-all duration-200 ease-in-out hover:!text-color-primary-hover lg:!text-[18px];
+  }
+  .nav-link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 1px;
+    background-color: var(--color-primary);
+    margin-top: 5px;
+    bottom: -5px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .nav-link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+  .nav-link-active::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  /* navbar style end */
+}

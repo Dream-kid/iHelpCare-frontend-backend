@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@images/*": ["public/images/*"],
+      "@components/*": ["src/components/*"],
+      "@redux/*": ["src/redux/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils/*": ["src/utils/*"],
+      "@data/*": ["src/data/*"],
+      "@lib/*": ["src/lib/*"],
+      "@api/*": ["src/app/api/*"],
+      "@app/*": ["src/app/*"],
+      "@root/*": ["*"]
+    }
+  }
+}

@@ -1,0 +1,466 @@
+[
+  {
+    "type": 1,
+    "key": "LOADING",
+    "title": "Loading Message",
+    "en": "Loading....",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SUCCESS",
+    "title": "Success Message",
+    "en": "Success",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "WARNING",
+    "title": "Warning Message",
+    "en": "Warning",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "ERROR",
+    "title": "Error Message",
+    "en": "Error",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "ERROR_PAGE_SUBTITLE",
+    "title": "Error Page Subtitle",
+    "en": "Sorry, the page you visited does not exist.",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SHARED_ERR_MSG",
+    "title": "Shared Error Message",
+    "en": "Sorry! Something went wrong. Please reload page and try again. Thanks",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SHARED_EMPTY_MSG",
+    "title": "Shared Empty Message",
+    "en": "Sorry, we couldn't find the data you're looking for.",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SHARED_GLOBAL_ERR_MSG",
+    "title": "Shared Global Error Message",
+    "en": "'Sorry, Getting error. Please reload page and try again.'",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SHARED_SUCCESS_MSG",
+    "title": "Shared Success Message",
+    "en": "Your request has been submitted successfully",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "AGREE_PRIVACY_POLICE",
+    "title": "By Submitting agree to our Terms of Use and Privacy Policy",
+    "en": "By submitting, you confirm that you agree to our Terms of Use and Privacy Policy.",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "G_TOKEN_ERROR",
+    "title": "Google reCAPTCHA validation Error",
+    "en": "Google reCAPTCHA validation failed. Please try again or reload page",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_BACK_HOME",
+    "title": "Back to Home",
+    "en": "Back to Home",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_RELOAD_PAGE",
+    "title": "Button Reload Page",
+    "en": "Reload Page",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_SEND",
+    "title": "Button Send",
+    "en": "Send",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_SUBMIT",
+    "title": "Button Submit",
+    "en": "Submit",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_OK",
+    "title": "Button Ok",
+    "en": "Ok",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_CANCEL",
+    "title": "Button Cancel",
+    "en": "Cancel",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_CLOSE",
+    "title": "Button Close",
+    "en": "Close",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_LEARN_MORE",
+    "title": "Button Learn More",
+    "en": "Learn More",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_VIEW_DETAILS",
+    "title": "Button View Details",
+    "en": "View Details",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_BROWSE",
+    "title": "Button Browse",
+    "en": "Browse",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "BTN_EDIT_PROFILE",
+    "title": "Button Edit Profile",
+    "en": "Edit Profile",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SL_NO",
+    "title": "Serial Number",
+    "en": "Serial No.",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "ACTION",
+    "title": "Action",
+    "en": "Action",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "ACTIVE",
+    "title": "Active",
+    "en": "Active",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "INACTIVE",
+    "title": "Inactive",
+    "en": "Inactive",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "DATE",
+    "title": "Date",
+    "en": "Date",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "IMAGE",
+    "title": "Image",
+    "en": "Image",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "PHOTO",
+    "title": "Photo",
+    "en": "Photo",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "MY_PROFILE",
+    "title": "My Profile",
+    "en": "My Profile",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "CHOSE_PROFILE_IMAGE_LEVEL",
+    "title": "Choose an image from your computer",
+    "en": "Choose an image from your computer",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "PROFILE_IMAGE_SIZE_LIMIT",
+    "title": "Minimum Size 100 x 100 px",
+    "en": "Minimum Size 100 x 100 px",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "RESIZE_PHOTO_LEVEL",
+    "title": "Resize Your Photo",
+    "en": "Resize Your Photo",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "REQUIRED_INPUT_FIELD",
+    "title": "Input Field Required Error Message",
+    "en": "Field is required!",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "EMAIL",
+    "title": "Email Address",
+    "en": "Email",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "PASSWORD",
+    "title": "Password",
+    "en": "Password",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "OLD_PASSWORD",
+    "title": "Old Password",
+    "en": "Old Password",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "CONFIRM_PASSWORD",
+    "title": "Confirm Password",
+    "en": "Confirm Password",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "FORGOT_PASSWORD",
+    "title": "Forgot Password",
+    "en": "Forgot Password",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "CHANGE_PASSWORD",
+    "title": "Change Password",
+    "en": "Change Password",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "RESET_PASSWORD",
+    "title": "Reset Password",
+    "en": "Reset Password",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "LOGIN",
+    "title": "Login",
+    "en": "Login",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "LOGOUT",
+    "title": "Logout",
+    "en": "Logout",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "FULL_NAME",
+    "title": "Full Name",
+    "en": "Full Name",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "FIRST_NAME",
+    "title": "First Name",
+    "en": "First Name",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "LAST_NAME",
+    "title": "Last Name",
+    "en": "Last Name",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "COMPANY_NAME",
+    "title": "Company Name",
+    "en": "Company Name",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "ADDRESS",
+    "title": "Address",
+    "en": "Address",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "POST_CODE",
+    "title": "Post Code",
+    "en": "Post Code",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "PHONE",
+    "title": "Tel",
+    "en": "Tel",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "OTP",
+    "title": "One Time Password (OTP)",
+    "en": "One Time Password (OTP)",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "HISTORY_OF_CARBON_RECORDS",
+    "title": "History of Carbon Records",
+    "en": "History of Carbon Records",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "SEARCH_PLACEHOLDER",
+    "title": "Search Input Placeholder",
+    "en": "Type here to search",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "PREVIOUS",
+    "title": "Previous",
+    "en": "Previous",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "NEXT",
+    "title": "Next",
+    "en": "Next",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "TRANSACTIONS",
+    "title": "Transactions",
+    "en": "Transactions",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "TRANSACTIONS_ID",
+    "title": "Transactions Id",
+    "en": "Transactions Id",
+    "bn": "",
+    "use_for": 2
+  },
+  {
+    "type": 1,
+    "key": "COMPLETED",
+    "title": "Completed",
+    "en": "Completed",
+    "bn": "",
+    "use_for": 2
+  }
+]
