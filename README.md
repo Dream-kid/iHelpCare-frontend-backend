@@ -152,3 +152,11 @@ You now have a working Laravel + Next.js fullstack setup on macOS using XAMPP, d
 - Choose the file: `ihelp.sql`
 - Click **Go** to import the structure and data.
 
+## Contributors
+Thank you to all the contributors of this project!
+
+- [Mehedi Hasan](https://github.com/mehediy)
+- Trisha Bhowmick
+- [Soarov Chakra Borty](https://github.com/Dream-kid)
+
+
